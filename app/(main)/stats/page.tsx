@@ -1,5 +1,8 @@
-const DeleteFile = () => {
-  return null
+"use client"
+
+import { StatsView } from "@/components/stats-view"
+
+export default function StatsPage() {
+  return <StatsView />
 }
-;<DeleteFile />
 
